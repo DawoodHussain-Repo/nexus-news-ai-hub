@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Separator } from "@/components/ui/separator";
 import { useToast } from "@/hooks/use-toast";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Eye, EyeOff, GitHub, Loader2 } from 'lucide-react';
+import { Eye, EyeOff, Github, Loader2 } from 'lucide-react';
 
 export const LoginForm = () => {
   const navigate = useNavigate();
@@ -128,7 +127,7 @@ export const LoginForm = () => {
 
         <div className="grid grid-cols-1 gap-2">
           <Button variant="outline" className="w-full">
-            <GitHub className="mr-2 h-4 w-4" /> GitHub
+            <Github className="mr-2 h-4 w-4" /> GitHub
           </Button>
         </div>
       </CardContent>
@@ -264,7 +263,7 @@ export const SignupForm = () => {
 
         <div className="grid grid-cols-1 gap-2">
           <Button variant="outline" className="w-full">
-            <GitHub className="mr-2 h-4 w-4" /> GitHub
+            <Github className="mr-2 h-4 w-4" /> GitHub
           </Button>
         </div>
       </CardContent>
